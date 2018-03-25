@@ -1,3 +1,0 @@
-package omnetcom;
-
-@license(LGPL);
