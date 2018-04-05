@@ -1,12 +1,12 @@
 #
-# OMNeT++/OMNEST Makefile for OMNetCom
+# OMNeT++/OMNEST Makefile for Interface4OMNeTpp
 #
 # This file was generated with the command:
 #  opp_makemake -f --deep -O out
 #
 
 # Name of target to be created (-o option)
-TARGET = OMNetCom$(EXE_SUFFIX)
+TARGET = Interface4OMNeTpp$(EXE_SUFFIX)
 
 # User interface (uncomment one) (-u option)
 USERIF_LIBS = $(ALL_ENV_LIBS) # that is, $(TKENV_LIBS) $(QTENV_LIBS) $(CMDENV_LIBS)
@@ -162,7 +162,7 @@ smheaders: $(SMFILES:.sm=_sm.h)
 clean:
 	$(qecho) Cleaning...
 	$(Q)-rm -rf $O
-	$(Q)-rm -f OMNetCom OMNetCom.exe libOMNetCom.so libOMNetCom.a libOMNetCom.dll libOMNetCom.dylib
+	$(Q)-rm -f Interface4OMNeTpp Interface4OMNeTpp.exe libInterface4OMNeTpp.so libInterface4OMNeTpp.a libInterface4OMNeTpp.dll libInterface4OMNeTpp.dylib
 	$(Q)-rm -f ./*_m.cc ./*_m.h ./*_sm.cc ./*_sm.h
 	$(Q)-rm -f SimApp/*_m.cc SimApp/*_m.h SimApp/*_sm.cc SimApp/*_sm.h
 	$(Q)-rm -f results/*_m.cc results/*_m.h results/*_sm.cc results/*_sm.h
